@@ -52,6 +52,30 @@
       border-radius: 10px;
       margin: 20px 0;
     }
+
+    .typing-text {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  letter-spacing: .05em;
+  animation: typing 3s steps(35, end), blink-caret .75s step-end infinite;
+  font-size: 2rem;
+  color: #333;
+  max-width: fit-content;
+  margin: 40px auto;
+  text-align: center;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
     
   </style>
 </head>
@@ -76,7 +100,7 @@
   <section id="home" class="hero">
 
 
-    <h1>Welcome to AdloomHQ Banner Design</h1>
+    <h1>class="typing-text"> Welcome to AdloomHQ Banner Design</h1>
     <p>We specialize in crafting visually impactful banners that capture attention and drive results. Whether you need promotional banners for social media, website headers, or advertising campaigns, we deliver high-quality designs tailored to your brand’s voice and goals.With a focus on clean aesthetics, strategic messaging, and fast turnaround times, our banner designs help you stand out in a crowded digital space.Let’s bring your vision to life—one banner at a time.
     At AdloomHQ, we specialize in crafting high-quality advertising banners that not only look stunning but also deliver real marketing results. Whether you’re running campaigns on Google Ads, Facebook, Instagram, or YouTube, our banners are designed to stand out, capture attention, and drive clicks. We believe that every brand deserves a unique voice, which is why our designs are fully custom — no templates, no shortcuts, just original concepts tailored to your message and audience. We work quickly to meet tight deadlines and offer flexible revisions to ensure you're completely satisfied with the final result.</p>
     <a href="contact.html" class="btn">Let's Work Together</a>
